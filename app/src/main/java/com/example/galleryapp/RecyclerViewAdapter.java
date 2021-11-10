@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.RecyclerViewHolder> {
 
-    public final String IMAGE_PATH_LABEL = "imagePath";
+    public final static String IMAGE_PATH_LABEL = "imagePath";
     private final Context context;
     private final ArrayList<String> mImagePathArrayList;
 
